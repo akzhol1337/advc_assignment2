@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/undefined/CLionProjects/ass2/FirstPart.cpp" "/Users/undefined/CLionProjects/ass2/cmake-build-debug/CMakeFiles/ass2.dir/FirstPart.cpp.o"
+  "/Users/undefined/CLionProjects/ass2/Person.cpp" "/Users/undefined/CLionProjects/ass2/cmake-build-debug/CMakeFiles/ass2.dir/Person.cpp.o"
+  "/Users/undefined/CLionProjects/ass2/SecondPart.cpp" "/Users/undefined/CLionProjects/ass2/cmake-build-debug/CMakeFiles/ass2.dir/SecondPart.cpp.o"
   "/Users/undefined/CLionProjects/ass2/main.cpp" "/Users/undefined/CLionProjects/ass2/cmake-build-debug/CMakeFiles/ass2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

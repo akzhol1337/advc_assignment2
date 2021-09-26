@@ -143,6 +143,87 @@ ass2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ass2.dir/build.make CMakeFiles/ass2.dir/build
 .PHONY : ass2/fast
 
+FirstPart.o: FirstPart.cpp.o
+
+.PHONY : FirstPart.o
+
+# target to build an object file
+FirstPart.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ass2.dir/build.make CMakeFiles/ass2.dir/FirstPart.cpp.o
+.PHONY : FirstPart.cpp.o
+
+FirstPart.i: FirstPart.cpp.i
+
+.PHONY : FirstPart.i
+
+# target to preprocess a source file
+FirstPart.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ass2.dir/build.make CMakeFiles/ass2.dir/FirstPart.cpp.i
+.PHONY : FirstPart.cpp.i
+
+FirstPart.s: FirstPart.cpp.s
+
+.PHONY : FirstPart.s
+
+# target to generate assembly for a file
+FirstPart.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ass2.dir/build.make CMakeFiles/ass2.dir/FirstPart.cpp.s
+.PHONY : FirstPart.cpp.s
+
+Person.o: Person.cpp.o
+
+.PHONY : Person.o
+
+# target to build an object file
+Person.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ass2.dir/build.make CMakeFiles/ass2.dir/Person.cpp.o
+.PHONY : Person.cpp.o
+
+Person.i: Person.cpp.i
+
+.PHONY : Person.i
+
+# target to preprocess a source file
+Person.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ass2.dir/build.make CMakeFiles/ass2.dir/Person.cpp.i
+.PHONY : Person.cpp.i
+
+Person.s: Person.cpp.s
+
+.PHONY : Person.s
+
+# target to generate assembly for a file
+Person.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ass2.dir/build.make CMakeFiles/ass2.dir/Person.cpp.s
+.PHONY : Person.cpp.s
+
+SecondPart.o: SecondPart.cpp.o
+
+.PHONY : SecondPart.o
+
+# target to build an object file
+SecondPart.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ass2.dir/build.make CMakeFiles/ass2.dir/SecondPart.cpp.o
+.PHONY : SecondPart.cpp.o
+
+SecondPart.i: SecondPart.cpp.i
+
+.PHONY : SecondPart.i
+
+# target to preprocess a source file
+SecondPart.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ass2.dir/build.make CMakeFiles/ass2.dir/SecondPart.cpp.i
+.PHONY : SecondPart.cpp.i
+
+SecondPart.s: SecondPart.cpp.s
+
+.PHONY : SecondPart.s
+
+# target to generate assembly for a file
+SecondPart.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ass2.dir/build.make CMakeFiles/ass2.dir/SecondPart.cpp.s
+.PHONY : SecondPart.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +260,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ass2"
+	@echo "... FirstPart.o"
+	@echo "... FirstPart.i"
+	@echo "... FirstPart.s"
+	@echo "... Person.o"
+	@echo "... Person.i"
+	@echo "... Person.s"
+	@echo "... SecondPart.o"
+	@echo "... SecondPart.i"
+	@echo "... SecondPart.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
