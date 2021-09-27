@@ -197,33 +197,6 @@ Person.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ass2.dir/build.make CMakeFiles/ass2.dir/Person.cpp.s
 .PHONY : Person.cpp.s
 
-SecondPart.o: SecondPart.cpp.o
-
-.PHONY : SecondPart.o
-
-# target to build an object file
-SecondPart.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ass2.dir/build.make CMakeFiles/ass2.dir/SecondPart.cpp.o
-.PHONY : SecondPart.cpp.o
-
-SecondPart.i: SecondPart.cpp.i
-
-.PHONY : SecondPart.i
-
-# target to preprocess a source file
-SecondPart.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ass2.dir/build.make CMakeFiles/ass2.dir/SecondPart.cpp.i
-.PHONY : SecondPart.cpp.i
-
-SecondPart.s: SecondPart.cpp.s
-
-.PHONY : SecondPart.s
-
-# target to generate assembly for a file
-SecondPart.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ass2.dir/build.make CMakeFiles/ass2.dir/SecondPart.cpp.s
-.PHONY : SecondPart.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -266,9 +239,6 @@ help:
 	@echo "... Person.o"
 	@echo "... Person.i"
 	@echo "... Person.s"
-	@echo "... SecondPart.o"
-	@echo "... SecondPart.i"
-	@echo "... SecondPart.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

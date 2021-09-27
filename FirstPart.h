@@ -5,9 +5,9 @@
 
 class FirstPart {
 public:
-    void findLuckiest();
-    void changeLuck(Person &a, Person &b);
-    void allocate();
+    void static findLuckiest();
+    void static changeLuck(Person &a, Person &b);
+    void static allocate();
 };
 
 

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/undefined/CLionProjects/ass2/FirstPart.cpp
+FirstPart.h
+/Users/undefined/CLionProjects/ass2/FirstPart.h
+bits/stdc++.h
+-
+Person.h
+/Users/undefined/CLionProjects/ass2/Person.h
+
+/Users/undefined/CLionProjects/ass2/FirstPart.h
+Person.h
+/Users/undefined/CLionProjects/ass2/Person.h
+
+/Users/undefined/CLionProjects/ass2/Person.h
+bits/stdc++.h
+-
+

@@ -1,23 +1,19 @@
-//
-// Created by undefined on 26.09.2021.
-//
-
 #include "FirstPart.h"
 #include <bits/stdc++.h>
 #include "Person.h"
 
 using namespace std;
 
-void FirstPart::findLuckiest(){
-    // create vector of type Person
+ void FirstPart::findLuckiest(){
     vector<Person> persons;
 
-    //insert objects
-    persons.push_back(*new Person("John", 19, 56));
-    persons.push_back(*new Person("David", 23, 72));
-    persons.push_back(*new Person("Petrick", 56, 23));
-    persons.push_back(*new Person("Oliver", 16, 99));
-    persons.push_back(*new Person("Andrew", 25, 44));
+    srand(NULL);
+
+    persons.push_back(*new Person("Mark", 23, rand() % 100));
+    persons.push_back(*new Person("Azamat", 23, rand() % 100));
+    persons.push_back(*new Person("Petrick", 7, rand() % 100));
+    persons.push_back(*new Person("Oliver", 16, rand() % 100));
+    persons.push_back(*new Person("Andrew", 25, rand() % 100));
 
 
     // find luckiest
@@ -36,8 +32,12 @@ void FirstPart::findLuckiest(){
 }
 
 void FirstPart::changeLuck(Person &a, Person &b){
+
+     // save old value of a's luck
     int luck_copy = a.getLuck();
+    // update a's value to b's value
     a.setLuck(b.getLuck());
+    // b's value is a's old value in variable lucky_cope
     b.setLuck(luck_copy);
 }
 

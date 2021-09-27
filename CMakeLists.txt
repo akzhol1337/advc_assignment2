@@ -3,4 +3,4 @@ project(ass2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ass2 main.cpp Person.cpp Person.h FirstPart.cpp FirstPart.h SecondPart.cpp SecondPart.h)
+add_executable(ass2 main.cpp Person.cpp Person.h FirstPart.cpp FirstPart.h)

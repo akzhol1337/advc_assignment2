@@ -47,13 +47,18 @@ Unfriendly code
 
 <h2>Task 2</h2>
   
-One more example when we may need extern C, is when we writing some code which can be used by both C and C++ languages. 
-If don't write extern C, C++ don't understand function.
+  
+ One more example when we may need extern C, is when we writing some code which can be used by both C and C++ languages. 
+ If don't write extern C, C++ don't understand function.
      
      
 <h2>Task 3</h2>
-     const keyword means constant. It is used when we don't need access to edit value of variable.
-     For example when passing parameter to a function, If we pass variable by reference, we can simply edit value of parameter,
-     if we want not to edit, we write const. And compiler shows us error if we try.
+
+ Const keyword means constant. It is used when we don't need access to edit value of variable.  
+ For example when passing parameter to a function, If we pass variable by reference,    
+ we can simply edit value of parameter, if we want not to edit, we write const.   
+ And compiler shows us error if we try.   
+ One more reason to use const, it is code clearness, it makes code more readable.      
+ In addition, const makes our compile work more effectively, which increases performance of our program.
 
      
